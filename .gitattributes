@@ -1,0 +1,43 @@
+.gitattributes !filter !diff
+* text=auto
+
+#common settings that generally should always be used with your language specific settings
+
+# Documents
+*.doc	 diff=astextplain
+*.DOC	 diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot  diff=astextplain
+*.DOT  diff=astextplain
+*.rtf	 diff=astextplain
+*.RTF	 diff=astextplain
+*.md text
+*.adoc text
+*.textile text
+*.mustache text
+*.csv text
+*.tab text
+*.tsv text
+*.sql text
+*.svg text
+*.eps text
+*.ps text
+
+# (binary is a macro for -text -diff)
+*.pdf binary
+*.PDF binary
+*.png binary
+*.PNG binary
+*.jpg binary
+*.JPG binary
+*.jpeg binary
+*.JPEG binary
+*.gif binary
+*.GIF binary
+*.tif binary
+*.TIF binary
+*.tiff binary
+*.TIF binary
+*.ico binary
+*.ICO binary
